@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="asset/image/favicon.png" alt="Calista Solihin Logo" width="80" height="80" />
-
 # ✦ Calista Solihin — Creative Portfolio
 
 **A personal portfolio website with a Soft Claymorphism aesthetic.**  
@@ -21,7 +19,7 @@ Pastel mint tones · Interactive animations · Pixel-perfect responsive layout
 
 <br/>
 
-[🌐 Live Demo](#) · [📩 Contact Me](mailto:calistasolihin@example.com) · [💼 Behance](https://behance.net)
+[🌐 Live Demo](https://USERNAME.github.io/portfolio) · [📩 Contact Me](mailto:calistasolihin@example.com) · [💼 Behance](https://behance.net)
 
 </div>
 
@@ -124,21 +122,28 @@ The hero section features a custom illustrated character whose **eyes follow you
 trial-web/
 │
 ├── 📄 index.html                   # Single-page app — all sections
+├── 📄 README.md
+├── 📄 .gitignore
 │
-├── 📂 asset/
-│   ├── 📂 css/
-│   │   └── style.css               # 1200+ lines of Claymorphism CSS
-│   │
-│   ├── 📂 js/
-│   │   └── script.js               # 500+ lines of interactive JS
-│   │
-│   └── 📂 image/
-│       ├── favicon.png             # Browser favicon
-│       ├── character-center.png    # Hero character (center gaze)
-│       ├── character-*.png         # 8 additional eye direction states
-│       └── lanyard.png             # ID Badge illustration
-│
-└── 📄 README.md
+└── 📂 assets/
+    ├── 📂 css/
+    │   └── style.css               # 1200+ lines of Claymorphism CSS
+    │
+    ├── 📂 js/
+    │   └── script.js               # 500+ lines of interactive JS
+    │
+    └── 📂 images/
+        ├── favicon.png             # Browser favicon
+        ├── character-center.png    # Hero character (center gaze)
+        ├── character-up.png
+        ├── character-down.png
+        ├── character-left.png
+        ├── character-right.png
+        ├── character-up-left.png
+        ├── character-up-right.png
+        ├── character-down-left.png
+        ├── character-down-right.png
+        └── lanyard.png             # ID Badge illustration
 ```
 
 ---
