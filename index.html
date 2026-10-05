@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calista Solihin - Creative Portfolio</title>
+    <link rel="icon" type="image/png" href="asset/image/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="asset/css/style.css">
+</head>
+
+<body>
+    <!-- ====================================================================
+         Header: Sidebar Navigation Vertikal (Desktop Left & Mobile Bottom)
+         ==================================================================== -->
+    <header class="sidebar-header">
+        <nav class="sidebar-nav" aria-label="Main Navigation">
+            <ul class="nav-list" role="menubar">
+                <li class="nav-item" role="none">
+                    <a href="#home" class="nav-link active" id="nav-home" role="menuitem" aria-current="page">
+                        <i class="fa-solid fa-house nav-icon" aria-hidden="true"></i>
+                        <span class="nav-label">Home</span>
+                    </a>
+                </li>
+                <li class="nav-item" role="none">
+                    <a href="#about" class="nav-link" id="nav-about" role="menuitem">
+                        <i class="fa-solid fa-user nav-icon" aria-hidden="true"></i>
+                        <span class="nav-label">About</span>
+                    </a>
+                </li>
+                <li class="nav-item" role="none">
+                    <a href="#project" class="nav-link" id="nav-project" role="menuitem">
+                        <i class="fa-solid fa-folder nav-icon" aria-hidden="true"></i>
+                        <span class="nav-label">Project</span>
+                    </a>
+                </li>
+                <li class="nav-item" role="none">
+                    <a href="#contact" class="nav-link" id="nav-contact" role="menuitem">
+                        <i class="fa-solid fa-share-nodes nav-icon" aria-hidden="true"></i>
+                        <span class="nav-label">Contact</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ====================================================================
+         Main Content Area (All Portfolio Sections)
+         ==================================================================== -->
+    <main class="main-content">
+        <!-- ================================================================
+             STEP 2 & 3: Home Hero Section (9-Directional Eye Tracking)
+             ================================================================ -->
+        <section id="home" class="portfolio-section hero-section" aria-label="Hero Section">
+            <div class="hero-stage">
+                <div class="hero-character-wrapper">
+                    <!-- Karakter Utama dengan 9 Arah Pandangan Mata -->
+                    <img src="asset/image/character-center.png" alt="Calista Solihin - Karakter Ilustrasi Portofolio"
+                        class="hero-character-img" id="heroCharacter" loading="eager">
+
+                    <!-- Floating Pastel Mint Clay Name Pill -->
+                    <div class="hero-name-pill">
+                        <h1 class="hero-name-text">Calista Solihin</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================================================================
+             STEP 5, 6, & 7: About Section (Typing Animation & Draggable Lanyard)
+             ================================================================ -->
+        <section id="about" class="portfolio-section about-section" aria-label="Tentang Saya">
+            <div class="about-container">
+                <!-- Sisi Kiri: Informasi Editorial Resume -->
+                <div class="about-content-col">
+                    <h2 class="about-heading" id="aboutHeading" aria-label="Hi, I'm Calista Solihin">
+                        <span class="typing-text" id="aboutTypingText" aria-hidden="true"></span><span
+                            class="typing-cursor" id="aboutTypingCursor" aria-hidden="true">|</span>
+                    </h2>
+                    <p class="about-intro">A passionate creative focusing on modern web design, claymorphism, and
+                        dynamic interactive experiences.</p>
+
+                    <!-- Experience -->
+                    <div class="resume-group">
+                        <h3 class="resume-title">EXPERIENCE</h3>
+                        <ul class="resume-list">
+                            <li class="resume-item">Graphic Designer</li>
+                            <li class="resume-item">Calligrapher</li>
+                            <li class="resume-item">Decoration Coordinator</li>
+                        </ul>
+                    </div>
+
+                    <!-- Education -->
+                    <div class="resume-group">
+                        <h3 class="resume-title">EDUCATION</h3>
+                        <ul class="resume-list">
+                            <li class="resume-item">Highschool - SMAK 1 BPK Penabur Bandung</li>
+                            <li class="resume-item">S1 - Universitas Pelita Harapan</li>
+                        </ul>
+                    </div>
+
+                    <!-- Contact Social Grid -->
+                    <div class="resume-group">
+                        <h3 class="resume-title">CONTACT</h3>
+                        <div class="about-contact-grid">
+                            <a href="https://behance.net" target="_blank" rel="noopener noreferrer"
+                                class="clay-icon-btn" aria-label="Profil Behance">
+                                <i class="fa-brands fa-behance" aria-hidden="true"></i>
+                            </a>
+                            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
+                                class="clay-icon-btn" aria-label="Profil LinkedIn">
+                                <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+                            </a>
+                            <a href="mailto:calistasolihin@example.com" class="clay-icon-btn" aria-label="Kirim Email">
+                                <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                            </a>
+                            <a href="#contact" class="clay-icon-btn" aria-label="Hubungi Langsung">
+                                <i class="fa-solid fa-pen" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Tools Row -->
+                    <div class="resume-group">
+                        <h3 class="resume-title">TOOLS</h3>
+                        <div class="about-tools-row">
+                            <span class="clay-icon-btn" title="Figma UI Design" aria-label="Figma">
+                                <i class="fa-solid fa-square" aria-hidden="true"></i>
+                            </span>
+                            <span class="clay-icon-btn" title="Front-End Development" aria-label="Development">
+                                <i class="fa-solid fa-heart" aria-hidden="true"></i>
+                            </span>
+                            <span class="clay-icon-btn" title="Claymorphism & 3D Web" aria-label="Creative Coding">
+                                <i class="fa-solid fa-heart" aria-hidden="true"></i>
+                            </span>
+                            <span class="clay-icon-btn" title="Clean Code" aria-label="Code">
+                                <i class="fa-solid fa-caret-left" aria-hidden="true"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sisi Kanan: ID Badge Lanyard yang Besar & Interaktif -->
+                <div class="about-lanyard-col">
+                    <div class="about-lanyard-wrapper" id="aboutLanyardWrapper" title="Ayun atau drag ID Badge ini!">
+                        <img src="asset/image/lanyard.png" alt="ID Card Lanyard Calista Solihin" class="lanyard-img"
+                            id="aboutLanyard" draggable="false">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================================================================
+             STEP 8: Projects Section (Horizontal Slider & 5 Clay Cards)
+             ================================================================ -->
+        <section id="project" class="portfolio-section project-section" aria-label="Daftar Proyek">
+            <div class="project-header">
+                <span class="project-line" aria-hidden="true"></span>
+                <h2 class="project-title">PROJECTS</h2>
+                <span class="project-line" aria-hidden="true"></span>
+            </div>
+
+            <div class="project-slider-container">
+                <!-- Tombol Prev -->
+                <button class="slider-btn prev-btn" id="projectPrevBtn" aria-label="Proyek Sebelumnya">
+                    <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
+                </button>
+
+                <!-- Horizontal Scroll Track -->
+                <div class="project-slider" id="projectSlider" tabindex="0" role="region"
+                    aria-label="Koleksi Proyek Portofolio">
+                    <!-- Card 01 -->
+                    <article class="project-card" data-project-id="1">
+                        <span class="card-number">01</span>
+                        <div class="card-image-box" role="button" tabindex="0" aria-label="Buka pratinjau Project 1">
+                            <i class="fa-solid fa-mobile-screen project-icon" aria-hidden="true"></i>
+                            <span class="view-overlay-hint">
+                                <i class="fa-solid fa-magnifying-glass-plus" aria-hidden="true"></i> View
+                            </span>
+                        </div>
+                        <h3 class="card-title">Project 1</h3>
+                        <span class="card-category">Mobile Banking Experience</span>
+                    </article>
+
+                    <!-- Card 02 -->
+                    <article class="project-card" data-project-id="2">
+                        <span class="card-number">02</span>
+                        <div class="card-image-box" role="button" tabindex="0" aria-label="Buka pratinjau Project 2">
+                            <i class="fa-solid fa-tablet-screen-button project-icon" aria-hidden="true"></i>
+                            <span class="view-overlay-hint">
+                                <i class="fa-solid fa-magnifying-glass-plus" aria-hidden="true"></i> View
+                            </span>
+                        </div>
+                        <h3 class="card-title">Project 2</h3>
+                        <span class="card-category">Claymorphism Dashboard</span>
+                    </article>
+
+                    <!-- Card 03 -->
+                    <article class="project-card" data-project-id="3">
+                        <span class="card-number">03</span>
+                        <div class="card-image-box" role="button" tabindex="0" aria-label="Buka pratinjau Project 3">
+                            <i class="fa-solid fa-laptop project-icon" aria-hidden="true"></i>
+                            <span class="view-overlay-hint">
+                                <i class="fa-solid fa-magnifying-glass-plus" aria-hidden="true"></i> View
+                            </span>
+                        </div>
+                        <h3 class="card-title">Project 3</h3>
+                        <span class="card-category">SaaS E-Commerce Ecosystem</span>
+                    </article>
+
+                    <!-- Card 04 -->
+                    <article class="project-card" data-project-id="4">
+                        <span class="card-number">04</span>
+                        <div class="card-image-box" role="button" tabindex="0" aria-label="Buka pratinjau Project 4">
+                            <i class="fa-solid fa-wand-magic-sparkles project-icon" aria-hidden="true"></i>
+                            <span class="view-overlay-hint">
+                                <i class="fa-solid fa-magnifying-glass-plus" aria-hidden="true"></i> View
+                            </span>
+                        </div>
+                        <h3 class="card-title">Project 4</h3>
+                        <span class="card-category">Interactive Portfolio Vibe</span>
+                    </article>
+
+                    <!-- Card 05 -->
+                    <article class="project-card" data-project-id="5">
+                        <span class="card-number">05</span>
+                        <div class="card-image-box" role="button" tabindex="0" aria-label="Buka pratinjau Project 5">
+                            <i class="fa-solid fa-cubes project-icon" aria-hidden="true"></i>
+                            <span class="view-overlay-hint">
+                                <i class="fa-solid fa-magnifying-glass-plus" aria-hidden="true"></i> View
+                            </span>
+                        </div>
+                        <h3 class="card-title">Project 5</h3>
+                        <span class="card-category">3D Design System Tokens</span>
+                    </article>
+                </div>
+
+                <!-- Tombol Next -->
+                <button class="slider-btn next-btn" id="projectNextBtn" aria-label="Proyek Selanjutnya">
+                    <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+                </button>
+            </div>
+        </section>
+
+        <!-- ================================================================
+             STEP 10: Contact Section (Interactive Soft Clay Envelope CTA)
+             ================================================================ -->
+        <section id="contact" class="portfolio-section contact-section" aria-label="Kontak dan Kolaborasi">
+            <div class="contact-envelope-stage">
+                <div class="contact-envelope-wrapper" id="envelopeWrapper">
+                    <!-- 1. Bagian Belakang Amplop -->
+                    <div class="envelope-back" aria-hidden="true"></div>
+
+                    <!-- 2. Surat di Dalam Amplop (Naik perlahan saat hover) -->
+                    <div class="envelope-letter" id="envelopeLetter">
+                        <div class="letter-content">
+                            <h2 class="letter-title">Let's Work Together!</h2>
+                            <p class="letter-paragraph">
+                                Have a project in mind, need a developer, or just want to discuss some cool ideas? I'm
+                                always open to new opportunities.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- 3. Pocket / Bagian Depan Amplop -->
+                    <div class="envelope-pocket" aria-hidden="true"></div>
+
+                    <!-- CTA Button (Tetap dapat diklik) -->
+                    <div class="envelope-cta-wrapper">
+                        <a href="mailto:calistasolihin@example.com" class="envelope-btn" id="envelopeEmailBtn">
+                            <span>Send Me an Email</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ====================================================================
+         STEP 9: Project Preview Modal (Popup with Backdrop Blur & Scale)
+         ==================================================================== -->
+    <div class="project-modal" id="projectModal" aria-hidden="true" role="dialog" aria-modal="true"
+        aria-labelledby="modalTitle" aria-describedby="modalDesc">
+        <div class="modal-overlay" id="modalOverlay"></div>
+        <div class="modal-dialog">
+            <button class="modal-close-btn" id="modalCloseBtn" aria-label="Tutup pratinjau proyek">&times;</button>
+
+            <div class="modal-preview-stage" id="modalPreviewStage">
+                <i class="fa-solid fa-mobile-screen modal-preview-icon" id="modalPreviewIcon" aria-hidden="true"></i>
+            </div>
+
+            <div class="modal-body">
+                <span class="modal-number" id="modalNumber">01</span>
+                <h3 class="modal-title" id="modalTitle">Project Title</h3>
+                <span class="modal-category" id="modalCategory">Category</span>
+                <p class="modal-desc" id="modalDesc">
+                    A comprehensive overview showcasing clean architecture, responsive interactivity, and intuitive
+                    claymorphism UI design. Built with performance and tactile aesthetic in mind.
+                </p>
+                <div class="modal-actions">
+                    <a href="#contact" class="modal-cta-btn" id="modalCtaBtn">
+                        <i class="fa-solid fa-paper-plane" aria-hidden="true"></i> Discuss This Project
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ====================================================================
+         STEP 11: Floating WhatsApp Button (Fixed Bottom Right Claymorphism)
+         ==================================================================== -->
+    <a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer" class="floating-whatsapp-btn"
+        id="floatingWhatsappBtn" aria-label="Hubungi via WhatsApp">
+        <i class="fa-brands fa-whatsapp whatsapp-icon" aria-hidden="true"></i>
+    </a>
+
+    <!-- Interactive JavaScript -->
+    <script src="asset/js/script.js"></script>
+</body>
+
+</html>
